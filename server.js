@@ -6,7 +6,7 @@ import cors from "cors";
 
 
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 10000;
 
 app.use(cors({
   origin: process.env.FRONTEND_URL,
@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 app.use('/user', userRoute)
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     connectDB()
     console.log(`Server is running at port ${PORT}`);
 })
