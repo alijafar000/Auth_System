@@ -83,8 +83,7 @@ authentication-system/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/authentication-system.git
-cd authentication-system
+git clone https://github.com/alijafar000/Auth_System.git
 ```
 
 ### 2. Install Dependencies
